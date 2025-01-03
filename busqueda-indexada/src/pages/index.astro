@@ -1,0 +1,36 @@
+---
+// filepath: /src/pages/index.astro
+import SearchComponent from '../components/SearchComponent.jsx';
+---
+
+<html>
+  <head>
+    <title>Indexed Search</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .search-container {
+        text-align: center;
+      }
+      .search-input {
+        width: 80%;
+        padding: 1rem;
+        font-size: 1.5rem;
+      }
+      .search-button {
+        padding: 1rem;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <SearchComponent />
+  </body>
+</html>
